@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const WEATHER_API_KEY = process.env.WEATHER_API_KEY
+const WEATHER_API_KEY = "c80f34c42d651f2dfa91a57531d79898"
 
 const fetchWeather = async (cities) => {
     const weatherData = {};
